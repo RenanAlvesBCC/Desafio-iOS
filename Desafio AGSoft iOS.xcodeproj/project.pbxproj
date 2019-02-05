@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5823C512209FC8E00673901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C502209FC8E00673901 /* AppDelegate.swift */; };
+		C5823C532209FC8E00673901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C522209FC8E00673901 /* ViewController.swift */; };
+		C5823C562209FC8E00673901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5823C542209FC8E00673901 /* Main.storyboard */; };
+		C5823C582209FC8F00673901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5823C572209FC8F00673901 /* Assets.xcassets */; };
+		C5823C5B2209FC8F00673901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5823C592209FC8F00673901 /* LaunchScreen.storyboard */; };
+		C5823C9D2209FCAF00673901 /* Hoggue Goro - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C632209FCAE00673901 /* Hoggue Goro - Documento.jpg */; };
+		C5823C9E2209FCAF00673901 /* Corbin Pritza - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C642209FCAE00673901 /* Corbin Pritza - Documento.jpg */; };
+		C5823C9F2209FCAF00673901 /* Gaar - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C652209FCAF00673901 /* Gaar - Foto.jpg */; };
+		C5823CA02209FCAF00673901 /* Siloc Tajor - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C662209FCAF00673901 /* Siloc Tajor - Documento.jpg */; };
+		C5823CA12209FCAF00673901 /* Brellar Mara - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C672209FCAF00673901 /* Brellar Mara - Documento.jpg */; };
+		C5823CA22209FCAF00673901 /* Thanthaa zh'Rada - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C682209FCAF00673901 /* Thanthaa zh'Rada - Documento.jpg */; };
+		C5823CA32209FCAF00673901 /* Thanthaa zh'Rada - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C692209FCAF00673901 /* Thanthaa zh'Rada - Foto.jpg */; };
+		C5823CA42209FCAF00673901 /* Aabran Benia - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C6A2209FCAF00673901 /* Aabran Benia - Foto.jpg */; };
+		C5823CA52209FCAF00673901 /* Kamad Daro - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C6B2209FCAF00673901 /* Kamad Daro - Documento.jpg */; };
+		C5823CA62209FCAF00673901 /* Odas sh'Zula - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C6C2209FCAF00673901 /* Odas sh'Zula - Documento.jpg */; };
+		C5823CA72209FCAF00673901 /* Kamad Daro - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C6D2209FCAF00673901 /* Kamad Daro - Foto.jpg */; };
+		C5823CA82209FCAF00673901 /* Silon Pora - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C6E2209FCAF00673901 /* Silon Pora - Foto.jpg */; };
+		C5823CA92209FCAF00673901 /* Anpat Padal - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C6F2209FCAF00673901 /* Anpat Padal - Foto.jpg */; };
+		C5823CAA2209FCAF00673901 /* Shrani sh'Vranthi - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C702209FCAF00673901 /* Shrani sh'Vranthi - Foto.jpg */; };
+		C5823CAB2209FCAF00673901 /* Jori Trale - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C712209FCAF00673901 /* Jori Trale - Foto.jpg */; };
+		C5823CAC2209FCAF00673901 /* Tekor Damar - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C722209FCAF00673901 /* Tekor Damar - Documento.jpg */; };
+		C5823CAD2209FCAF00673901 /* Shoggue Rejar - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C732209FCAF00673901 /* Shoggue Rejar - Documento.jpg */; };
+		C5823CAE2209FCAF00673901 /* Brony Maro Brony Parnia - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C742209FCAF00673901 /* Brony Maro Brony Parnia - Documento.jpg */; };
+		C5823CAF2209FCAF00673901 /* Prugue Seska - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C752209FCAF00673901 /* Prugue Seska - Documento.jpg */; };
+		C5823CB02209FCAF00673901 /* Thavand sh'Share - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C762209FCAF00673901 /* Thavand sh'Share - Foto.jpg */; };
+		C5823CB12209FCAF00673901 /* Thavand sh'Share - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C772209FCAF00673901 /* Thavand sh'Share - Documento.jpg */; };
+		C5823CB22209FCAF00673901 /* Prugue Seska - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C782209FCAF00673901 /* Prugue Seska - Foto.jpg */; };
+		C5823CB32209FCAF00673901 /* Gavr - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C792209FCAF00673901 /* Gavr - Documento.jpg */; };
+		C5823CB42209FCAF00673901 /* Shoggue Rejar - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C7A2209FCAF00673901 /* Shoggue Rejar - Foto.jpg */; };
+		C5823CB52209FCAF00673901 /* Aabran Benia - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C7B2209FCAF00673901 /* Aabran Benia - Documento.jpg */; };
+		C5823CB62209FCAF00673901 /* Corbin Daro - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C7C2209FCAF00673901 /* Corbin Daro - Foto.jpg */; };
+		C5823CB72209FCAF00673901 /* Kovor Rusol - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C7D2209FCAF00673901 /* Kovor Rusol - Documento.jpg */; };
+		C5823CB82209FCAF00673901 /* Odas sh'Zula - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C7E2209FCAF00673901 /* Odas sh'Zula - Foto.jpg */; };
+		C5823CB92209FCAF00673901 /* Pretav Zara - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C7F2209FCAF00673901 /* Pretav Zara - Documento.jpg */; };
+		C5823CBA2209FCAF00673901 /* Tekor Damar - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C802209FCAF00673901 /* Tekor Damar - Foto.jpg */; };
+		C5823CBB2209FCAF00673901 /* Anpat Padal - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C812209FCAF00673901 /* Anpat Padal - Documento.jpg */; };
+		C5823CBC2209FCAF00673901 /* Gaar - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C822209FCAF00673901 /* Gaar - Documento.jpg */; };
+		C5823CBD2209FCAF00673901 /* Silon Pora - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C832209FCAF00673901 /* Silon Pora - Documento.jpg */; };
+		C5823CBE2209FCAF00673901 /* Aaral Telle - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C842209FCAF00673901 /* Aaral Telle - Foto.jpg */; };
+		C5823CBF2209FCAF00673901 /* Brellar Mara - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C852209FCAF00673901 /* Brellar Mara - Foto.jpg */; };
+		C5823CC02209FCAF00673901 /* Gavr - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C862209FCAF00673901 /* Gavr - Foto.jpg */; };
+		C5823CC12209FCAF00673901 /* Cretav Tania - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C872209FCAF00673901 /* Cretav Tania - Foto.jpg */; };
+		C5823CC22209FCAF00673901 /* Jori Trale - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C882209FCAF00673901 /* Jori Trale - Documento.jpg */; };
+		C5823CC32209FCAF00673901 /* Meken Gara - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C892209FCAF00673901 /* Meken Gara - Documento.jpg */; };
+		C5823CC42209FCAF00673901 /* Kovor Rusol - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C8A2209FCAF00673901 /* Kovor Rusol - Foto.jpg */; };
+		C5823CC52209FCAF00673901 /* Hoggue Goro - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C8B2209FCAF00673901 /* Hoggue Goro - Foto.jpg */; };
+		C5823CC62209FCAF00673901 /* Meken Gara - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C8C2209FCAF00673901 /* Meken Gara - Foto.jpg */; };
+		C5823CC72209FCAF00673901 /* Aarmar Mosolmak Daro - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C8D2209FCAF00673901 /* Aarmar Mosolmak Daro - Documento.jpg */; };
+		C5823CC82209FCAF00673901 /* Pretav Zara - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C8E2209FCAF00673901 /* Pretav Zara - Foto.jpg */; };
+		C5823CC92209FCAF00673901 /* Crugue Mavok - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C8F2209FCAF00673901 /* Crugue Mavok - Foto.jpg */; };
+		C5823CCA2209FCAF00673901 /* Siloc Tajor - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C902209FCAF00673901 /* Siloc Tajor - Foto.jpg */; };
+		C5823CCB2209FCAF00673901 /* Shrani sh'Vranthi - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C912209FCAF00673901 /* Shrani sh'Vranthi - Documento.jpg */; };
+		C5823CCC2209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C922209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg */; };
+		C5823CCD2209FCAF00673901 /* Corbin Daro - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C932209FCAF00673901 /* Corbin Daro - Documento.jpg */; };
+		C5823CCE2209FCAF00673901 /* Kamem Seska - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C942209FCAF00673901 /* Kamem Seska - Documento.jpg */; };
+		C5823CCF2209FCAF00673901 /* Aaral Telle - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C952209FCAF00673901 /* Aaral Telle - Documento.jpg */; };
+		C5823CD02209FCAF00673901 /* Thrib zh'Shendria - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C962209FCAF00673901 /* Thrib zh'Shendria - Documento.jpg */; };
+		C5823CD12209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C972209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg */; };
+		C5823CD22209FCAF00673901 /* Crugue Mavok - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C982209FCAF00673901 /* Crugue Mavok - Documento.jpg */; };
+		C5823CD32209FCAF00673901 /* Thrib zh'Shendria - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C992209FCAF00673901 /* Thrib zh'Shendria - Foto.jpg */; };
+		C5823CD42209FCAF00673901 /* Kamem Seska - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C9A2209FCAF00673901 /* Kamem Seska - Foto.jpg */; };
+		C5823CD52209FCAF00673901 /* Cretav Tania - Documento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C9B2209FCAF00673901 /* Cretav Tania - Documento.jpg */; };
+		C5823CD62209FCAF00673901 /* Corbin Pritza - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C9C2209FCAF00673901 /* Corbin Pritza - Foto.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5823C4D2209FC8E00673901 /* Desafio AGSoft iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio AGSoft iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5823C502209FC8E00673901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5823C522209FC8E00673901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5823C552209FC8E00673901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5823C572209FC8F00673901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5823C5A2209FC8F00673901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5823C5C2209FC8F00673901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5823C632209FCAE00673901 /* Hoggue Goro - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hoggue Goro - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C642209FCAE00673901 /* Corbin Pritza - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corbin Pritza - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C652209FCAF00673901 /* Gaar - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gaar - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C662209FCAF00673901 /* Siloc Tajor - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Siloc Tajor - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C672209FCAF00673901 /* Brellar Mara - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brellar Mara - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C682209FCAF00673901 /* Thanthaa zh'Rada - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thanthaa zh'Rada - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C692209FCAF00673901 /* Thanthaa zh'Rada - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thanthaa zh'Rada - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C6A2209FCAF00673901 /* Aabran Benia - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aabran Benia - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C6B2209FCAF00673901 /* Kamad Daro - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kamad Daro - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C6C2209FCAF00673901 /* Odas sh'Zula - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Odas sh'Zula - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C6D2209FCAF00673901 /* Kamad Daro - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kamad Daro - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C6E2209FCAF00673901 /* Silon Pora - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Silon Pora - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C6F2209FCAF00673901 /* Anpat Padal - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anpat Padal - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C702209FCAF00673901 /* Shrani sh'Vranthi - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shrani sh'Vranthi - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C712209FCAF00673901 /* Jori Trale - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jori Trale - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C722209FCAF00673901 /* Tekor Damar - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tekor Damar - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C732209FCAF00673901 /* Shoggue Rejar - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shoggue Rejar - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C742209FCAF00673901 /* Brony Maro Brony Parnia - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brony Maro Brony Parnia - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C752209FCAF00673901 /* Prugue Seska - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prugue Seska - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C762209FCAF00673901 /* Thavand sh'Share - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thavand sh'Share - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C772209FCAF00673901 /* Thavand sh'Share - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thavand sh'Share - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C782209FCAF00673901 /* Prugue Seska - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prugue Seska - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C792209FCAF00673901 /* Gavr - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gavr - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C7A2209FCAF00673901 /* Shoggue Rejar - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shoggue Rejar - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C7B2209FCAF00673901 /* Aabran Benia - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aabran Benia - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C7C2209FCAF00673901 /* Corbin Daro - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corbin Daro - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C7D2209FCAF00673901 /* Kovor Rusol - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kovor Rusol - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C7E2209FCAF00673901 /* Odas sh'Zula - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Odas sh'Zula - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C7F2209FCAF00673901 /* Pretav Zara - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pretav Zara - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C802209FCAF00673901 /* Tekor Damar - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tekor Damar - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C812209FCAF00673901 /* Anpat Padal - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anpat Padal - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C822209FCAF00673901 /* Gaar - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gaar - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C832209FCAF00673901 /* Silon Pora - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Silon Pora - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C842209FCAF00673901 /* Aaral Telle - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aaral Telle - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C852209FCAF00673901 /* Brellar Mara - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brellar Mara - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C862209FCAF00673901 /* Gavr - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gavr - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C872209FCAF00673901 /* Cretav Tania - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cretav Tania - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C882209FCAF00673901 /* Jori Trale - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jori Trale - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C892209FCAF00673901 /* Meken Gara - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meken Gara - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C8A2209FCAF00673901 /* Kovor Rusol - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kovor Rusol - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C8B2209FCAF00673901 /* Hoggue Goro - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hoggue Goro - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C8C2209FCAF00673901 /* Meken Gara - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meken Gara - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C8D2209FCAF00673901 /* Aarmar Mosolmak Daro - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aarmar Mosolmak Daro - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C8E2209FCAF00673901 /* Pretav Zara - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pretav Zara - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C8F2209FCAF00673901 /* Crugue Mavok - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crugue Mavok - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C902209FCAF00673901 /* Siloc Tajor - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Siloc Tajor - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C912209FCAF00673901 /* Shrani sh'Vranthi - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shrani sh'Vranthi - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C922209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brony Maro Brony Parnia - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C932209FCAF00673901 /* Corbin Daro - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corbin Daro - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C942209FCAF00673901 /* Kamem Seska - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kamem Seska - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C952209FCAF00673901 /* Aaral Telle - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aaral Telle - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C962209FCAF00673901 /* Thrib zh'Shendria - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thrib zh'Shendria - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C972209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aarmar Mosolmak Daro - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C982209FCAF00673901 /* Crugue Mavok - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crugue Mavok - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C992209FCAF00673901 /* Thrib zh'Shendria - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thrib zh'Shendria - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C9A2209FCAF00673901 /* Kamem Seska - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kamem Seska - Foto.jpg"; sourceTree = "<group>"; };
+		C5823C9B2209FCAF00673901 /* Cretav Tania - Documento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cretav Tania - Documento.jpg"; sourceTree = "<group>"; };
+		C5823C9C2209FCAF00673901 /* Corbin Pritza - Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corbin Pritza - Foto.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5823C4A2209FC8E00673901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5823C442209FC8E00673901 = {
+			isa = PBXGroup;
+			children = (
+				C5823C4F2209FC8E00673901 /* Desafio AGSoft iOS */,
+				C5823C4E2209FC8E00673901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5823C4E2209FC8E00673901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5823C4D2209FC8E00673901 /* Desafio AGSoft iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5823C4F2209FC8E00673901 /* Desafio AGSoft iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5823C622209FCAE00673901 /* Documentos */,
+				C5823C502209FC8E00673901 /* AppDelegate.swift */,
+				C5823C522209FC8E00673901 /* ViewController.swift */,
+				C5823C542209FC8E00673901 /* Main.storyboard */,
+				C5823C572209FC8F00673901 /* Assets.xcassets */,
+				C5823C592209FC8F00673901 /* LaunchScreen.storyboard */,
+				C5823C5C2209FC8F00673901 /* Info.plist */,
+			);
+			path = "Desafio AGSoft iOS";
+			sourceTree = "<group>";
+		};
+		C5823C622209FCAE00673901 /* Documentos */ = {
+			isa = PBXGroup;
+			children = (
+				C5823C632209FCAE00673901 /* Hoggue Goro - Documento.jpg */,
+				C5823C642209FCAE00673901 /* Corbin Pritza - Documento.jpg */,
+				C5823C652209FCAF00673901 /* Gaar - Foto.jpg */,
+				C5823C662209FCAF00673901 /* Siloc Tajor - Documento.jpg */,
+				C5823C672209FCAF00673901 /* Brellar Mara - Documento.jpg */,
+				C5823C682209FCAF00673901 /* Thanthaa zh'Rada - Documento.jpg */,
+				C5823C692209FCAF00673901 /* Thanthaa zh'Rada - Foto.jpg */,
+				C5823C6A2209FCAF00673901 /* Aabran Benia - Foto.jpg */,
+				C5823C6B2209FCAF00673901 /* Kamad Daro - Documento.jpg */,
+				C5823C6C2209FCAF00673901 /* Odas sh'Zula - Documento.jpg */,
+				C5823C6D2209FCAF00673901 /* Kamad Daro - Foto.jpg */,
+				C5823C6E2209FCAF00673901 /* Silon Pora - Foto.jpg */,
+				C5823C6F2209FCAF00673901 /* Anpat Padal - Foto.jpg */,
+				C5823C702209FCAF00673901 /* Shrani sh'Vranthi - Foto.jpg */,
+				C5823C712209FCAF00673901 /* Jori Trale - Foto.jpg */,
+				C5823C722209FCAF00673901 /* Tekor Damar - Documento.jpg */,
+				C5823C732209FCAF00673901 /* Shoggue Rejar - Documento.jpg */,
+				C5823C742209FCAF00673901 /* Brony Maro Brony Parnia - Documento.jpg */,
+				C5823C752209FCAF00673901 /* Prugue Seska - Documento.jpg */,
+				C5823C762209FCAF00673901 /* Thavand sh'Share - Foto.jpg */,
+				C5823C772209FCAF00673901 /* Thavand sh'Share - Documento.jpg */,
+				C5823C782209FCAF00673901 /* Prugue Seska - Foto.jpg */,
+				C5823C792209FCAF00673901 /* Gavr - Documento.jpg */,
+				C5823C7A2209FCAF00673901 /* Shoggue Rejar - Foto.jpg */,
+				C5823C7B2209FCAF00673901 /* Aabran Benia - Documento.jpg */,
+				C5823C7C2209FCAF00673901 /* Corbin Daro - Foto.jpg */,
+				C5823C7D2209FCAF00673901 /* Kovor Rusol - Documento.jpg */,
+				C5823C7E2209FCAF00673901 /* Odas sh'Zula - Foto.jpg */,
+				C5823C7F2209FCAF00673901 /* Pretav Zara - Documento.jpg */,
+				C5823C802209FCAF00673901 /* Tekor Damar - Foto.jpg */,
+				C5823C812209FCAF00673901 /* Anpat Padal - Documento.jpg */,
+				C5823C822209FCAF00673901 /* Gaar - Documento.jpg */,
+				C5823C832209FCAF00673901 /* Silon Pora - Documento.jpg */,
+				C5823C842209FCAF00673901 /* Aaral Telle - Foto.jpg */,
+				C5823C852209FCAF00673901 /* Brellar Mara - Foto.jpg */,
+				C5823C862209FCAF00673901 /* Gavr - Foto.jpg */,
+				C5823C872209FCAF00673901 /* Cretav Tania - Foto.jpg */,
+				C5823C882209FCAF00673901 /* Jori Trale - Documento.jpg */,
+				C5823C892209FCAF00673901 /* Meken Gara - Documento.jpg */,
+				C5823C8A2209FCAF00673901 /* Kovor Rusol - Foto.jpg */,
+				C5823C8B2209FCAF00673901 /* Hoggue Goro - Foto.jpg */,
+				C5823C8C2209FCAF00673901 /* Meken Gara - Foto.jpg */,
+				C5823C8D2209FCAF00673901 /* Aarmar Mosolmak Daro - Documento.jpg */,
+				C5823C8E2209FCAF00673901 /* Pretav Zara - Foto.jpg */,
+				C5823C8F2209FCAF00673901 /* Crugue Mavok - Foto.jpg */,
+				C5823C902209FCAF00673901 /* Siloc Tajor - Foto.jpg */,
+				C5823C912209FCAF00673901 /* Shrani sh'Vranthi - Documento.jpg */,
+				C5823C922209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg */,
+				C5823C932209FCAF00673901 /* Corbin Daro - Documento.jpg */,
+				C5823C942209FCAF00673901 /* Kamem Seska - Documento.jpg */,
+				C5823C952209FCAF00673901 /* Aaral Telle - Documento.jpg */,
+				C5823C962209FCAF00673901 /* Thrib zh'Shendria - Documento.jpg */,
+				C5823C972209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg */,
+				C5823C982209FCAF00673901 /* Crugue Mavok - Documento.jpg */,
+				C5823C992209FCAF00673901 /* Thrib zh'Shendria - Foto.jpg */,
+				C5823C9A2209FCAF00673901 /* Kamem Seska - Foto.jpg */,
+				C5823C9B2209FCAF00673901 /* Cretav Tania - Documento.jpg */,
+				C5823C9C2209FCAF00673901 /* Corbin Pritza - Foto.jpg */,
+			);
+			path = Documentos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5823C4C2209FC8E00673901 /* Desafio AGSoft iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5823C5F2209FC8F00673901 /* Build configuration list for PBXNativeTarget "Desafio AGSoft iOS" */;
+			buildPhases = (
+				C5823C492209FC8E00673901 /* Sources */,
+				C5823C4A2209FC8E00673901 /* Frameworks */,
+				C5823C4B2209FC8E00673901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio AGSoft iOS";
+			productName = "Desafio AGSoft iOS";
+			productReference = C5823C4D2209FC8E00673901 /* Desafio AGSoft iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5823C452209FC8E00673901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AGSoft;
+				TargetAttributes = {
+					C5823C4C2209FC8E00673901 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C5823C482209FC8E00673901 /* Build configuration list for PBXProject "Desafio AGSoft iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5823C442209FC8E00673901;
+			productRefGroup = C5823C4E2209FC8E00673901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5823C4C2209FC8E00673901 /* Desafio AGSoft iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5823C4B2209FC8E00673901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5823CCB2209FCAF00673901 /* Shrani sh'Vranthi - Documento.jpg in Resources */,
+				C5823CB32209FCAF00673901 /* Gavr - Documento.jpg in Resources */,
+				C5823CC72209FCAF00673901 /* Aarmar Mosolmak Daro - Documento.jpg in Resources */,
+				C5823CB72209FCAF00673901 /* Kovor Rusol - Documento.jpg in Resources */,
+				C5823CD52209FCAF00673901 /* Cretav Tania - Documento.jpg in Resources */,
+				C5823CD32209FCAF00673901 /* Thrib zh'Shendria - Foto.jpg in Resources */,
+				C5823CA92209FCAF00673901 /* Anpat Padal - Foto.jpg in Resources */,
+				C5823CC92209FCAF00673901 /* Crugue Mavok - Foto.jpg in Resources */,
+				C5823CBD2209FCAF00673901 /* Silon Pora - Documento.jpg in Resources */,
+				C5823CA02209FCAF00673901 /* Siloc Tajor - Documento.jpg in Resources */,
+				C5823CC32209FCAF00673901 /* Meken Gara - Documento.jpg in Resources */,
+				C5823CB12209FCAF00673901 /* Thavand sh'Share - Documento.jpg in Resources */,
+				C5823CD62209FCAF00673901 /* Corbin Pritza - Foto.jpg in Resources */,
+				C5823CCF2209FCAF00673901 /* Aaral Telle - Documento.jpg in Resources */,
+				C5823CB92209FCAF00673901 /* Pretav Zara - Documento.jpg in Resources */,
+				C5823CAC2209FCAF00673901 /* Tekor Damar - Documento.jpg in Resources */,
+				C5823CA72209FCAF00673901 /* Kamad Daro - Foto.jpg in Resources */,
+				C5823CAB2209FCAF00673901 /* Jori Trale - Foto.jpg in Resources */,
+				C5823C5B2209FC8F00673901 /* LaunchScreen.storyboard in Resources */,
+				C5823C582209FC8F00673901 /* Assets.xcassets in Resources */,
+				C5823CC62209FCAF00673901 /* Meken Gara - Foto.jpg in Resources */,
+				C5823CAA2209FCAF00673901 /* Shrani sh'Vranthi - Foto.jpg in Resources */,
+				C5823CC02209FCAF00673901 /* Gavr - Foto.jpg in Resources */,
+				C5823CB62209FCAF00673901 /* Corbin Daro - Foto.jpg in Resources */,
+				C5823CD42209FCAF00673901 /* Kamem Seska - Foto.jpg in Resources */,
+				C5823CA22209FCAF00673901 /* Thanthaa zh'Rada - Documento.jpg in Resources */,
+				C5823CB22209FCAF00673901 /* Prugue Seska - Foto.jpg in Resources */,
+				C5823CA52209FCAF00673901 /* Kamad Daro - Documento.jpg in Resources */,
+				C5823CA42209FCAF00673901 /* Aabran Benia - Foto.jpg in Resources */,
+				C5823CC52209FCAF00673901 /* Hoggue Goro - Foto.jpg in Resources */,
+				C5823CC42209FCAF00673901 /* Kovor Rusol - Foto.jpg in Resources */,
+				C5823CA12209FCAF00673901 /* Brellar Mara - Documento.jpg in Resources */,
+				C5823C9F2209FCAF00673901 /* Gaar - Foto.jpg in Resources */,
+				C5823CAE2209FCAF00673901 /* Brony Maro Brony Parnia - Documento.jpg in Resources */,
+				C5823CBA2209FCAF00673901 /* Tekor Damar - Foto.jpg in Resources */,
+				C5823CC82209FCAF00673901 /* Pretav Zara - Foto.jpg in Resources */,
+				C5823C9E2209FCAF00673901 /* Corbin Pritza - Documento.jpg in Resources */,
+				C5823CB82209FCAF00673901 /* Odas sh'Zula - Foto.jpg in Resources */,
+				C5823CD02209FCAF00673901 /* Thrib zh'Shendria - Documento.jpg in Resources */,
+				C5823CC22209FCAF00673901 /* Jori Trale - Documento.jpg in Resources */,
+				C5823CCA2209FCAF00673901 /* Siloc Tajor - Foto.jpg in Resources */,
+				C5823CB52209FCAF00673901 /* Aabran Benia - Documento.jpg in Resources */,
+				C5823CAF2209FCAF00673901 /* Prugue Seska - Documento.jpg in Resources */,
+				C5823CA32209FCAF00673901 /* Thanthaa zh'Rada - Foto.jpg in Resources */,
+				C5823CD12209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg in Resources */,
+				C5823CCC2209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg in Resources */,
+				C5823C562209FC8E00673901 /* Main.storyboard in Resources */,
+				C5823CC12209FCAF00673901 /* Cretav Tania - Foto.jpg in Resources */,
+				C5823CD22209FCAF00673901 /* Crugue Mavok - Documento.jpg in Resources */,
+				C5823CB02209FCAF00673901 /* Thavand sh'Share - Foto.jpg in Resources */,
+				C5823CBC2209FCAF00673901 /* Gaar - Documento.jpg in Resources */,
+				C5823CBE2209FCAF00673901 /* Aaral Telle - Foto.jpg in Resources */,
+				C5823CB42209FCAF00673901 /* Shoggue Rejar - Foto.jpg in Resources */,
+				C5823CA62209FCAF00673901 /* Odas sh'Zula - Documento.jpg in Resources */,
+				C5823CAD2209FCAF00673901 /* Shoggue Rejar - Documento.jpg in Resources */,
+				C5823CBF2209FCAF00673901 /* Brellar Mara - Foto.jpg in Resources */,
+				C5823CCD2209FCAF00673901 /* Corbin Daro - Documento.jpg in Resources */,
+				C5823CBB2209FCAF00673901 /* Anpat Padal - Documento.jpg in Resources */,
+				C5823CCE2209FCAF00673901 /* Kamem Seska - Documento.jpg in Resources */,
+				C5823C9D2209FCAF00673901 /* Hoggue Goro - Documento.jpg in Resources */,
+				C5823CA82209FCAF00673901 /* Silon Pora - Foto.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5823C492209FC8E00673901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5823C532209FC8E00673901 /* ViewController.swift in Sources */,
+				C5823C512209FC8E00673901 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5823C542209FC8E00673901 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5823C552209FC8E00673901 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5823C592209FC8F00673901 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5823C5A2209FC8F00673901 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5823C5D2209FC8F00673901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5823C5E2209FC8F00673901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5823C602209FC8F00673901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK76EYN8RB;
+				INFOPLIST_FILE = "Desafio AGSoft iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.agsoft.Desafio-AGSoft-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5823C612209FC8F00673901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK76EYN8RB;
+				INFOPLIST_FILE = "Desafio AGSoft iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.agsoft.Desafio-AGSoft-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5823C482209FC8E00673901 /* Build configuration list for PBXProject "Desafio AGSoft iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5823C5D2209FC8F00673901 /* Debug */,
+				C5823C5E2209FC8F00673901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5823C5F2209FC8F00673901 /* Build configuration list for PBXNativeTarget "Desafio AGSoft iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5823C602209FC8F00673901 /* Debug */,
+				C5823C612209FC8F00673901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5823C452209FC8E00673901 /* Project object */;
+}
