@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E8169E4CE989B135AF15783C9BB5EE /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250A3ABDB5F412DBA226CFC3F01DCC15 /* Vision.framework */; };
+		58E4F00A7CC7A0EC16B2E140549A19D7 /* Pods-Desafio AGSoft iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D4682DA4C87B53ECE04E04E8E9A8B /* Pods-Desafio AGSoft iOS-dummy.m */; };
+		5F1D453EE02B23FC00A29B6E3FAC83FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446BF792DE6B82A91B1989DBB084B400 /* Foundation.framework */; };
+		6099560C33EA2D79D906582E0BE9C7F4 /* ImageDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E227288512707046419CB60BFEEFED /* ImageDetect.swift */; };
+		7E6B514DF45AA95286E6C9CE475B0A94 /* ImageDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEC46423A92139100B906677D8DFA21 /* ImageDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C48EC4D2865E33C2B8B69908BFA3E2 /* Pods-Desafio AGSoft iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E758688CFEB33574D5C04462C257168F /* Pods-Desafio AGSoft iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B009F8D7015ABC1DE96DB4B35023A6B6 /* ImageDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5C64F6A7579715E027C1B6B22DC86 /* ImageDetect-dummy.m */; };
+		B6F1F4229EC7F5ADFA6A7B036D47B38C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC264685CC1BD18D0740F38F2152139 /* UIKit.framework */; };
+		FE4856B2FD84CCD684801A2531D42177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446BF792DE6B82A91B1989DBB084B400 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD20A077FB1B8EB118640D2490825464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB12345ABE6A33C391C7467726755F1;
+			remoteInfo = ImageDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C866AF77BEBF526145FE481ED7351AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC264685CC1BD18D0740F38F2152139 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		23E227288512707046419CB60BFEEFED /* ImageDetect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDetect.swift; path = ImageDetect/Classes/ImageDetect.swift; sourceTree = "<group>"; };
+		250A3ABDB5F412DBA226CFC3F01DCC15 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Vision.framework; sourceTree = DEVELOPER_DIR; };
+		3AEC46423A92139100B906677D8DFA21 /* ImageDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDetect-umbrella.h"; sourceTree = "<group>"; };
+		446BF792DE6B82A91B1989DBB084B400 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E71C7078661ACF83F1A9B0B502AFB02 /* Pods-Desafio AGSoft iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio AGSoft iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		756BC2392B11AB26A89FCCE8EE44CC5F /* Pods-Desafio AGSoft iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Desafio AGSoft iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		766A6E6E6D539798AAF8B66ED4A2ED62 /* Pods-Desafio AGSoft iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio AGSoft iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		77AD442EAC4D629ED44B47D8534CA9D3 /* ImageDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageDetect.framework; path = ImageDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B3928F1CF3A2CC203FCCEC3CFC8CC6 /* Pods-Desafio AGSoft iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Desafio AGSoft iOS-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98794B4E7A17C9348A1B892658EBFE1D /* Pods-Desafio AGSoft iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Desafio AGSoft iOS.modulemap"; sourceTree = "<group>"; };
+		9C71E5C483D8BC38BAF01AACC23379FD /* ImageDetect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageDetect.xcconfig; sourceTree = "<group>"; };
+		A30E4D2284A4BD9DAB00171730658C1A /* Pods-Desafio AGSoft iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Desafio AGSoft iOS-frameworks.sh"; sourceTree = "<group>"; };
+		A6C5C64F6A7579715E027C1B6B22DC86 /* ImageDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageDetect-dummy.m"; sourceTree = "<group>"; };
+		BD4D4682DA4C87B53ECE04E04E8E9A8B /* Pods-Desafio AGSoft iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Desafio AGSoft iOS-dummy.m"; sourceTree = "<group>"; };
+		C425FC7B104A28472E2D6A79A8086740 /* ImageDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDetect-prefix.pch"; sourceTree = "<group>"; };
+		CA2D7CFFCC25954366857280F5D7DE1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22FD447AFEAB4AEC16058B161A6ECE0 /* ImageDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageDetect.modulemap; sourceTree = "<group>"; };
+		E758688CFEB33574D5C04462C257168F /* Pods-Desafio AGSoft iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Desafio AGSoft iOS-umbrella.h"; sourceTree = "<group>"; };
+		EA448EA047B19C997620F450D3CDF900 /* Pods_Desafio_AGSoft_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Desafio_AGSoft_iOS.framework; path = "Pods-Desafio AGSoft iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED81E79363178862E8A4274B29F818BA /* Pods-Desafio AGSoft iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio AGSoft iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4778AB5C19C58972D70E7464770219BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4856B2FD84CCD684801A2531D42177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD3DD7934207AC3DD6E65860552F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1D453EE02B23FC00A29B6E3FAC83FC /* Foundation.framework in Frameworks */,
+				B6F1F4229EC7F5ADFA6A7B036D47B38C /* UIKit.framework in Frameworks */,
+				10E8169E4CE989B135AF15783C9BB5EE /* Vision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858D09F7D02065165098B65137C091E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4791B8798699A37A857BE87DEB0A98AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B1EB97B4005C194DDE1FB64B29313 /* Pods-Desafio AGSoft iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		611EC7A6A4A9C0FD593081FC1B572E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77AD442EAC4D629ED44B47D8534CA9D3 /* ImageDetect.framework */,
+				EA448EA047B19C997620F450D3CDF900 /* Pods_Desafio_AGSoft_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				F95FE51D6E938DBB63492ADA7C201AAC /* Pods */,
+				611EC7A6A4A9C0FD593081FC1B572E17 /* Products */,
+				4791B8798699A37A857BE87DEB0A98AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		858D09F7D02065165098B65137C091E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				446BF792DE6B82A91B1989DBB084B400 /* Foundation.framework */,
+				1DC264685CC1BD18D0740F38F2152139 /* UIKit.framework */,
+				250A3ABDB5F412DBA226CFC3F01DCC15 /* Vision.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AC7FAEF7C926019326FB82C7696BEEA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22FD447AFEAB4AEC16058B161A6ECE0 /* ImageDetect.modulemap */,
+				9C71E5C483D8BC38BAF01AACC23379FD /* ImageDetect.xcconfig */,
+				A6C5C64F6A7579715E027C1B6B22DC86 /* ImageDetect-dummy.m */,
+				C425FC7B104A28472E2D6A79A8086740 /* ImageDetect-prefix.pch */,
+				3AEC46423A92139100B906677D8DFA21 /* ImageDetect-umbrella.h */,
+				CA2D7CFFCC25954366857280F5D7DE1B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImageDetect";
+			sourceTree = "<group>";
+		};
+		C634B213D6D5681EC79E8E8EB1EB6704 /* ImageDetect */ = {
+			isa = PBXGroup;
+			children = (
+				23E227288512707046419CB60BFEEFED /* ImageDetect.swift */,
+				AC7FAEF7C926019326FB82C7696BEEA7 /* Support Files */,
+			);
+			name = ImageDetect;
+			path = ImageDetect;
+			sourceTree = "<group>";
+		};
+		DD7B1EB97B4005C194DDE1FB64B29313 /* Pods-Desafio AGSoft iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C866AF77BEBF526145FE481ED7351AB /* Info.plist */,
+				98794B4E7A17C9348A1B892658EBFE1D /* Pods-Desafio AGSoft iOS.modulemap */,
+				756BC2392B11AB26A89FCCE8EE44CC5F /* Pods-Desafio AGSoft iOS-acknowledgements.markdown */,
+				766A6E6E6D539798AAF8B66ED4A2ED62 /* Pods-Desafio AGSoft iOS-acknowledgements.plist */,
+				BD4D4682DA4C87B53ECE04E04E8E9A8B /* Pods-Desafio AGSoft iOS-dummy.m */,
+				A30E4D2284A4BD9DAB00171730658C1A /* Pods-Desafio AGSoft iOS-frameworks.sh */,
+				81B3928F1CF3A2CC203FCCEC3CFC8CC6 /* Pods-Desafio AGSoft iOS-resources.sh */,
+				E758688CFEB33574D5C04462C257168F /* Pods-Desafio AGSoft iOS-umbrella.h */,
+				4E71C7078661ACF83F1A9B0B502AFB02 /* Pods-Desafio AGSoft iOS.debug.xcconfig */,
+				ED81E79363178862E8A4274B29F818BA /* Pods-Desafio AGSoft iOS.release.xcconfig */,
+			);
+			name = "Pods-Desafio AGSoft iOS";
+			path = "Target Support Files/Pods-Desafio AGSoft iOS";
+			sourceTree = "<group>";
+		};
+		F95FE51D6E938DBB63492ADA7C201AAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C634B213D6D5681EC79E8E8EB1EB6704 /* ImageDetect */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1403ECE9D6FD639AFB9E057F3E7D1A7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6B514DF45AA95286E6C9CE475B0A94 /* ImageDetect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB297130ECCBB66D99A6C068D4957552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C48EC4D2865E33C2B8B69908BFA3E2 /* Pods-Desafio AGSoft iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AB12345ABE6A33C391C7467726755F1 /* ImageDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D92893A42F3B8BC9727759A40D40D15 /* Build configuration list for PBXNativeTarget "ImageDetect" */;
+			buildPhases = (
+				AAF00AA6060829F008D5E5D5129A5D3F /* Sources */,
+				8DD3DD7934207AC3DD6E65860552F8DA /* Frameworks */,
+				1403ECE9D6FD639AFB9E057F3E7D1A7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDetect;
+			productName = ImageDetect;
+			productReference = 77AD442EAC4D629ED44B47D8534CA9D3 /* ImageDetect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9123B9FE79FA56BBF0F2E1A8E9E6411F /* Pods-Desafio AGSoft iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1971C822DA8F43844B992230DEC136 /* Build configuration list for PBXNativeTarget "Pods-Desafio AGSoft iOS" */;
+			buildPhases = (
+				0A5F5728303BE076F83DF2D87EB6B60A /* Sources */,
+				4778AB5C19C58972D70E7464770219BE /* Frameworks */,
+				FB297130ECCBB66D99A6C068D4957552 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94AE792D6D093E88A5D8F9ECDF087E3B /* PBXTargetDependency */,
+			);
+			name = "Pods-Desafio AGSoft iOS";
+			productName = "Pods-Desafio AGSoft iOS";
+			productReference = EA448EA047B19C997620F450D3CDF900 /* Pods_Desafio_AGSoft_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 611EC7A6A4A9C0FD593081FC1B572E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB12345ABE6A33C391C7467726755F1 /* ImageDetect */,
+				9123B9FE79FA56BBF0F2E1A8E9E6411F /* Pods-Desafio AGSoft iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5F5728303BE076F83DF2D87EB6B60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E4F00A7CC7A0EC16B2E140549A19D7 /* Pods-Desafio AGSoft iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF00AA6060829F008D5E5D5129A5D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B009F8D7015ABC1DE96DB4B35023A6B6 /* ImageDetect-dummy.m in Sources */,
+				6099560C33EA2D79D906582E0BE9C7F4 /* ImageDetect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94AE792D6D093E88A5D8F9ECDF087E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageDetect;
+			target = 4AB12345ABE6A33C391C7467726755F1 /* ImageDetect */;
+			targetProxy = FD20A077FB1B8EB118640D2490825464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4A1BC44C2C28D4B4B9DE867B6AAA148A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED81E79363178862E8A4274B29F818BA /* Pods-Desafio AGSoft iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio AGSoft iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB8FDA5E4F8E06964D34A5AFAE4D1492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C71E5C483D8BC38BAF01AACC23379FD /* ImageDetect.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageDetect/ImageDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageDetect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImageDetect/ImageDetect.modulemap";
+				PRODUCT_MODULE_NAME = ImageDetect;
+				PRODUCT_NAME = ImageDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C98967AF86B2F02C3D4464EF24163BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C71E5C483D8BC38BAF01AACC23379FD /* ImageDetect.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageDetect/ImageDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageDetect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImageDetect/ImageDetect.modulemap";
+				PRODUCT_MODULE_NAME = ImageDetect;
+				PRODUCT_NAME = ImageDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFE753FF599D617AFE0A230B759DEEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E71C7078661ACF83F1A9B0B502AFB02 /* Pods-Desafio AGSoft iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio AGSoft iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1971C822DA8F43844B992230DEC136 /* Build configuration list for PBXNativeTarget "Pods-Desafio AGSoft iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE753FF599D617AFE0A230B759DEEA8 /* Debug */,
+				4A1BC44C2C28D4B4B9DE867B6AAA148A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D92893A42F3B8BC9727759A40D40D15 /* Build configuration list for PBXNativeTarget "ImageDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FDA5E4F8E06964D34A5AFAE4D1492 /* Debug */,
+				C98967AF86B2F02C3D4464EF24163BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		591A29A9220A5DB60063A761 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29A8220A5DB60063A761 /* TableViewDataSource.swift */; };
+		591A29AC220A5F300063A761 /* AliensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29AB220A5F300063A761 /* AliensTableViewCell.swift */; };
+		591A29AF220A63FE0063A761 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29AE220A63FE0063A761 /* K.swift */; };
+		591A29B5220A678F0063A761 /* AlienDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A29B4220A678F0063A761 /* AlienDetails.storyboard */; };
+		591A29B7220A67C90063A761 /* AlienDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29B6220A67C90063A761 /* AlienDetailViewController.swift */; };
+		591A29B9220A68510063A761 /* Alienigena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29B8220A68510063A761 /* Alienigena.swift */; };
+		B17B2E6BDE7A6B94617BEFA4 /* Pods_Desafio_AGSoft_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD215FC9742501B5B076CF /* Pods_Desafio_AGSoft_iOS.framework */; };
 		C5823C512209FC8E00673901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C502209FC8E00673901 /* AppDelegate.swift */; };
 		C5823C532209FC8E00673901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C522209FC8E00673901 /* ViewController.swift */; };
 		C5823C562209FC8E00673901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5823C542209FC8E00673901 /* Main.storyboard */; };
@@ -73,6 +80,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25FD215FC9742501B5B076CF /* Pods_Desafio_AGSoft_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_AGSoft_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C24ECB280902DE572B0634 /* Pods-Desafio AGSoft iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		591A29A8220A5DB60063A761 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		591A29AB220A5F300063A761 /* AliensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliensTableViewCell.swift; sourceTree = "<group>"; };
+		591A29AE220A63FE0063A761 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		591A29B4220A678F0063A761 /* AlienDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlienDetails.storyboard; sourceTree = "<group>"; };
+		591A29B6220A67C90063A761 /* AlienDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDetailViewController.swift; sourceTree = "<group>"; };
+		591A29B8220A68510063A761 /* Alienigena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alienigena.swift; sourceTree = "<group>"; };
+		BC0892640F9CD3B68D1E1B26 /* Pods-Desafio AGSoft iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C5823C4D2209FC8E00673901 /* Desafio AGSoft iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio AGSoft iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5823C502209FC8E00673901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5823C522209FC8E00673901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,17 +161,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17B2E6BDE7A6B94617BEFA4 /* Pods_Desafio_AGSoft_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34BC85D59B400405A3015EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FD215FC9742501B5B076CF /* Pods_Desafio_AGSoft_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		591A29A7220A5D950063A761 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				591A29A8220A5DB60063A761 /* TableViewDataSource.swift */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		591A29AA220A5F050063A761 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				591A29AB220A5F300063A761 /* AliensTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		591A29B0220A67200063A761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5823C542209FC8E00673901 /* Main.storyboard */,
+				591A29B4220A678F0063A761 /* AlienDetails.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		591A29B2220A67330063A761 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5823C522209FC8E00673901 /* ViewController.swift */,
+				591A29B6220A67C90063A761 /* AlienDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		591A29B3220A67470063A761 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				591A29AE220A63FE0063A761 /* K.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		591A29BB220A68630063A761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				591A29B8220A68510063A761 /* Alienigena.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		595BE05E220A814D001D0EA1 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				591A29B2220A67330063A761 /* Controller */,
+				591A29B0220A67200063A761 /* View */,
+				591A29BB220A68630063A761 /* Model */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		89C8AD58CCCAEB1A79F1AC96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29C24ECB280902DE572B0634 /* Pods-Desafio AGSoft iOS.debug.xcconfig */,
+				BC0892640F9CD3B68D1E1B26 /* Pods-Desafio AGSoft iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C5823C442209FC8E00673901 = {
 			isa = PBXGroup;
 			children = (
 				C5823C4F2209FC8E00673901 /* Desafio AGSoft iOS */,
 				C5823C4E2209FC8E00673901 /* Products */,
+				89C8AD58CCCAEB1A79F1AC96 /* Pods */,
+				34BC85D59B400405A3015EF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,10 +266,12 @@
 		C5823C4F2209FC8E00673901 /* Desafio AGSoft iOS */ = {
 			isa = PBXGroup;
 			children = (
+				595BE05E220A814D001D0EA1 /* MVC */,
+				591A29B3220A67470063A761 /* Utilities */,
+				591A29AA220A5F050063A761 /* Cells */,
+				591A29A7220A5D950063A761 /* DataSources */,
 				C5823C622209FCAE00673901 /* Documentos */,
 				C5823C502209FC8E00673901 /* AppDelegate.swift */,
-				C5823C522209FC8E00673901 /* ViewController.swift */,
-				C5823C542209FC8E00673901 /* Main.storyboard */,
 				C5823C572209FC8F00673901 /* Assets.xcassets */,
 				C5823C592209FC8F00673901 /* LaunchScreen.storyboard */,
 				C5823C5C2209FC8F00673901 /* Info.plist */,
@@ -253,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5823C5F2209FC8F00673901 /* Build configuration list for PBXNativeTarget "Desafio AGSoft iOS" */;
 			buildPhases = (
+				A6F38AFBCBF84FD85FFEE95A /* [CP] Check Pods Manifest.lock */,
 				C5823C492209FC8E00673901 /* Sources */,
 				C5823C4A2209FC8E00673901 /* Frameworks */,
 				C5823C4B2209FC8E00673901 /* Resources */,
+				9FC29DA333CD0B773CDA5783 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +451,7 @@
 				C5823CD12209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg in Resources */,
 				C5823CCC2209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg in Resources */,
 				C5823C562209FC8E00673901 /* Main.storyboard in Resources */,
+				591A29B5220A678F0063A761 /* AlienDetails.storyboard in Resources */,
 				C5823CC12209FCAF00673901 /* Cretav Tania - Foto.jpg in Resources */,
 				C5823CD22209FCAF00673901 /* Crugue Mavok - Documento.jpg in Resources */,
 				C5823CB02209FCAF00673901 /* Thavand sh'Share - Foto.jpg in Resources */,
@@ -370,13 +471,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FC29DA333CD0B773CDA5783 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageDetect/ImageDetect.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageDetect.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F38AFBCBF84FD85FFEE95A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio AGSoft iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5823C492209FC8E00673901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591A29A9220A5DB60063A761 /* TableViewDataSource.swift in Sources */,
+				591A29B7220A67C90063A761 /* AlienDetailViewController.swift in Sources */,
+				591A29AF220A63FE0063A761 /* K.swift in Sources */,
 				C5823C532209FC8E00673901 /* ViewController.swift in Sources */,
 				C5823C512209FC8E00673901 /* AppDelegate.swift in Sources */,
+				591A29B9220A68510063A761 /* Alienigena.swift in Sources */,
+				591A29AC220A5F300063A761 /* AliensTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,10 +665,11 @@
 		};
 		C5823C602209FC8F00673901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C24ECB280902DE572B0634 /* Pods-Desafio AGSoft iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CK76EYN8RB;
+				DEVELOPMENT_TEAM = 8A5455B8KE;
 				INFOPLIST_FILE = "Desafio AGSoft iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,10 +684,11 @@
 		};
 		C5823C612209FC8F00673901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0892640F9CD3B68D1E1B26 /* Pods-Desafio AGSoft iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CK76EYN8RB;
+				DEVELOPMENT_TEAM = 8A5455B8KE;
 				INFOPLIST_FILE = "Desafio AGSoft iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
