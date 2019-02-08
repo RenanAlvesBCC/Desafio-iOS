@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InicialViewController: UIViewController {
+class InitialViewController: UIViewController {
 
     @IBOutlet weak var aliensTableView: UITableView!
     private let dataSource = TableViewDataSource()
@@ -17,12 +17,20 @@ class InicialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        aliensTableView.backgroundColor = UIColor(named: "Dark Blue")
         setupNavigation()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         aliensTableView.dataSource = dataSource
         aliensTableView.delegate = self
+        if aliensCadastrados.isEmpty {
+            if let view = self.view.viewWithTag(0) {
+                self.view.bringSubviewToFront(view)
+            }
+        }else {
+            self.view.bringSubviewToFront(aliensTableView)
+        }
         self.dataSource.datas = aliensCadastrados
         aliensTableView.reloadData()
     }
@@ -30,11 +38,11 @@ class InicialViewController: UIViewController {
 
 //MARK: - Delegate da tableView
 
-extension InicialViewController: UITableViewDelegate {
+extension InitialViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             let sb = UIStoryboard(name: "PassaporteAlien", bundle: nil)
-            let vc = sb.instantiateViewController(withIdentifier: "AlienDetail") as? PassaporteAlien
+            let vc = sb.instantiateViewController(withIdentifier: "AlienDetail") as? PassporteAlien
         
             vc?.alien = Alienigena.init(name: aliensCadastrados[indexPath.row])
             if let descViewController = vc {
@@ -48,7 +56,7 @@ extension InicialViewController: UITableViewDelegate {
 
 //MARK: - NavigationController
 
-extension InicialViewController {
+extension InitialViewController {
     private func setupNavigation() {
         self.navigationController?.navigationBar.barStyle = .default
         self.navigationController?.navigationBar.barTintColor = UIColor(named: "Dark Blue")
@@ -67,17 +75,32 @@ extension InicialViewController {
     }
     
     @objc func estatisticaPassaportes() {
-        print("Estatisticas.")
+        
+        let sb = UIStoryboard(name: "Estatistics", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "Estatistics") as? EstatisticsViewController
+        if let adcAlienViewController = vc {
+            if let nc = self.navigationController {
+                vc?.namesAliens = self.aliensCadastrados
+                nc.pushViewController(adcAlienViewController, animated: true)
+            }
+        }
+        
     }
     
     @objc func adicionarAlien() {
-        let sb = UIStoryboard(name: "AdicionaAlien", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "AdicionaAliens") as? AdicionaAliens
-        
+        let sb = UIStoryboard(name: "RegisterAliens", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "RegisterAliens") as? RegisterAliens
+        vc?.delegate = self
         if let adcAlienViewController = vc {
-            if let vc = self.navigationController {
-                vc.pushViewController(adcAlienViewController, animated: true)
+            if let nc = self.navigationController {
+                nc.pushViewController(adcAlienViewController, animated: true)
             }
         }
+    }
+}
+//MARK: - Delegate
+extension InitialViewController: RegisterPassportAlien {
+    func register(alien: Alienigena) {
+        aliensCadastrados.append(alien.name)
     }
 }

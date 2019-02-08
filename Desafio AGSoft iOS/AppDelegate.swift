@@ -15,6 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+
+        let navigationController = UINavigationController()
+        
+        let viewController = Controller.createController(storyBoardName: "Main", controllerIdentifier: "Main")
+        
+        UINavigationBar.appearance().tintColor = UIColor(named: "Yellow")
+        
+        navigationController.viewControllers = [viewController]
+        AliensForRegisterDAO.shared.save(namesAliens: K.names)
+        
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
+
         // Override point for customization after application launch.
         return true
     }

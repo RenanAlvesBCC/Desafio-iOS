@@ -6,57 +6,89 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Desafio_AGSoft_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" title="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="InitialViewController" customModule="Desafio_AGSoft_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="54" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LDJ-hL-41A">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AliensCell" rowHeight="49" id="ke6-QD-WBO" customClass="AliensTableViewCell" customModule="Desafio_AGSoft_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="54" width="375" height="49"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegisterAliensCell" rowHeight="66" id="ke6-QD-WBO" customClass="AliensTableViewCell" customModule="Desafio_AGSoft_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="54" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ke6-QD-WBO" id="Lwz-ML-fAe">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ngl-k3-cRf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67.5" height="66"/>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Names" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARx-Rq-PcR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                                                    <rect key="frame" x="67.5" y="0.0" width="300" height="66"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ARx-Rq-PcR" firstAttribute="leading" secondItem="Lwz-ML-fAe" secondAttribute="leading" id="2sA-2i-84p"/>
-                                                <constraint firstAttribute="bottom" secondItem="ARx-Rq-PcR" secondAttribute="bottom" id="CAn-Ai-1yd"/>
-                                                <constraint firstItem="ARx-Rq-PcR" firstAttribute="top" secondItem="Lwz-ML-fAe" secondAttribute="top" id="cHv-Pp-vUl"/>
-                                                <constraint firstAttribute="trailing" secondItem="ARx-Rq-PcR" secondAttribute="trailing" id="f4p-St-q6a"/>
+                                                <constraint firstItem="ngl-k3-cRf" firstAttribute="leading" secondItem="Lwz-ML-fAe" secondAttribute="leading" id="0gd-UF-w31"/>
+                                                <constraint firstItem="ARx-Rq-PcR" firstAttribute="top" secondItem="Lwz-ML-fAe" secondAttribute="top" id="FSm-BX-KjY"/>
+                                                <constraint firstItem="ARx-Rq-PcR" firstAttribute="leading" secondItem="ngl-k3-cRf" secondAttribute="trailing" id="Ura-xe-BcL"/>
+                                                <constraint firstItem="ngl-k3-cRf" firstAttribute="top" secondItem="Lwz-ML-fAe" secondAttribute="top" id="ozI-cM-ahl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstItem="ngl-k3-cRf" firstAttribute="width" secondItem="ke6-QD-WBO" secondAttribute="width" multiplier="0.18" id="hbE-8C-6hg"/>
+                                            <constraint firstItem="ARx-Rq-PcR" firstAttribute="width" secondItem="ke6-QD-WBO" secondAttribute="width" multiplier="0.8" id="oDv-ud-8uO"/>
+                                            <constraint firstItem="ngl-k3-cRf" firstAttribute="height" secondItem="ke6-QD-WBO" secondAttribute="height" id="s9k-eP-oCZ"/>
+                                            <constraint firstItem="ARx-Rq-PcR" firstAttribute="height" secondItem="ke6-QD-WBO" secondAttribute="height" id="uaq-oH-NgP"/>
+                                        </constraints>
                                         <connections>
+                                            <outlet property="imgAliens" destination="ngl-k3-cRf" id="j52-BU-6tU"/>
                                             <outlet property="lblNames" destination="ARx-Rq-PcR" id="bgh-vQ-8QZ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wol-8D-xH5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lib-sO-qdM">
+                                        <rect key="frame" x="0.0" y="293.5" width="375" height="100"/>
+                                        <string key="text">Ainda não tem nenhum passaporte feito, mas clicando no mais, no canto superior direito, terá todos os aliens que desejam passaporte.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" name="Yellow"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Dark Blue"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LDJ-hL-41A" secondAttribute="bottom" id="4Ef-vt-29Y"/>
-                            <constraint firstItem="LDJ-hL-41A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fbz-jE-ekA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LDJ-hL-41A" secondAttribute="trailing" id="ZoT-Nf-Zxs"/>
-                            <constraint firstItem="LDJ-hL-41A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cay-aX-cpu"/>
+                            <constraint firstItem="wol-8D-xH5" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="04v-Oz-Cfj"/>
+                            <constraint firstItem="wol-8D-xH5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1dI-jl-Rc0"/>
+                            <constraint firstItem="LDJ-hL-41A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Vb-0n-kze"/>
+                            <constraint firstItem="lib-sO-qdM" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="BX1-RF-o6a"/>
+                            <constraint firstItem="wol-8D-xH5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="FPZ-4s-Lkn"/>
+                            <constraint firstItem="lib-sO-qdM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="O1O-mH-JTw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wol-8D-xH5" secondAttribute="bottom" id="Uud-84-0sy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LDJ-hL-41A" secondAttribute="bottom" id="cRU-7B-CQs"/>
+                            <constraint firstItem="LDJ-hL-41A" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hTw-iF-quc"/>
+                            <constraint firstItem="lib-sO-qdM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="wxr-Lk-yaN"/>
+                            <constraint firstItem="LDJ-hL-41A" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yJA-29-ESv"/>
+                            <constraint firstItem="lib-sO-qdM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="z3L-2Q-c2m"/>
+                            <constraint firstItem="wol-8D-xH5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="z40-fZ-TNH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -64,8 +96,17 @@
                         <outlet property="aliensTableView" destination="LDJ-hL-41A" id="zY4-GG-WjJ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52" y="182.15892053973016"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="Dark Blue">
+            <color red="0.082352941176470587" green="0.15686274509803921" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Yellow">
+            <color red="0.99607843137254903" green="0.97254901960784312" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

@@ -21,10 +21,13 @@ class TableViewDataSource: NSObject, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "AliensCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RegisterAliensCell", for: indexPath)
         
         if let cell = cell as? AliensTableViewCell {
             cell.lblNames.text = datas[indexPath.row]
+            cell.imgAliens.image = Alienigena.init(name: datas[indexPath.row]).image
+        }else if let cell = cell as? RegisterAliensTableViewCell {
+            cell.nomeAliens.text = datas[indexPath.row]
         }
         return cell
     }

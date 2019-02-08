@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AlienDetail-->
+        <scene sceneID="WcS-37-E7O">
+            <objects>
+                <viewController storyboardIdentifier="AlienDetail" title="AlienDetail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UOT-HQ-6vN" customClass="PassporteAlien" customModule="Desafio_AGSoft_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xKh-wh-PwA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Passaporte Template" translatesAutoresizingMaskIntoConstraints="NO" id="Dqa-20-Tdq">
+                                <rect key="frame" x="0.0" y="233.5" width="375" height="200"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BlE-w0-YY9">
+                                <rect key="frame" x="67.5" y="282" width="71.5" height="96"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBJ-Pb-9Vc">
+                                <rect key="frame" x="170.5" y="302" width="146.5" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cG-Yc-o1y">
+                                <rect key="frame" x="234.5" y="315" width="86" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09p-Y5-zbv">
+                                <rect key="frame" x="180" y="332" width="146.5" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt2-Cn-0Q5">
+                                <rect key="frame" x="169" y="348.5" width="146" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Dark Blue"/>
+                        <constraints>
+                            <constraint firstItem="Dqa-20-Tdq" firstAttribute="width" secondItem="xKh-wh-PwA" secondAttribute="width" id="8eg-S1-fs1"/>
+                            <constraint firstItem="gt2-Cn-0Q5" firstAttribute="width" secondItem="Dqa-20-Tdq" secondAttribute="width" multiplier="0.39" id="Buf-Bz-Mrs"/>
+                            <constraint firstItem="Dqa-20-Tdq" firstAttribute="height" secondItem="xKh-wh-PwA" secondAttribute="height" multiplier="0.3" id="J3Q-nR-5j8"/>
+                            <constraint firstItem="gt2-Cn-0Q5" firstAttribute="height" secondItem="Dqa-20-Tdq" secondAttribute="height" multiplier="0.05" id="LIk-hN-wWp"/>
+                            <constraint firstItem="gBJ-Pb-9Vc" firstAttribute="width" secondItem="Dqa-20-Tdq" secondAttribute="width" multiplier="0.39" id="SA2-1B-Lii"/>
+                            <constraint firstItem="BlE-w0-YY9" firstAttribute="centerY" secondItem="Dqa-20-Tdq" secondAttribute="centerY" multiplier="0.99" id="SDs-aQ-kUu"/>
+                            <constraint firstItem="gt2-Cn-0Q5" firstAttribute="centerY" secondItem="Dqa-20-Tdq" secondAttribute="centerY" multiplier="1.06" id="Uuz-K9-jzS"/>
+                            <constraint firstItem="1cG-Yc-o1y" firstAttribute="centerY" secondItem="Dqa-20-Tdq" secondAttribute="centerY" multiplier="0.96" id="Wwi-3x-yEq"/>
+                            <constraint firstItem="09p-Y5-zbv" firstAttribute="width" secondItem="Dqa-20-Tdq" secondAttribute="width" multiplier="0.39" id="XEO-z4-36z"/>
+                            <constraint firstItem="gt2-Cn-0Q5" firstAttribute="centerX" secondItem="Dqa-20-Tdq" secondAttribute="centerX" multiplier="1.29" id="XV2-ja-JPr"/>
+                            <constraint firstItem="1cG-Yc-o1y" firstAttribute="width" secondItem="Dqa-20-Tdq" secondAttribute="width" multiplier="0.23" id="YJu-ZT-jJC"/>
+                            <constraint firstItem="09p-Y5-zbv" firstAttribute="height" secondItem="Dqa-20-Tdq" secondAttribute="height" multiplier="0.05" id="b4J-Eh-YRZ"/>
+                            <constraint firstItem="gBJ-Pb-9Vc" firstAttribute="height" secondItem="Dqa-20-Tdq" secondAttribute="height" multiplier="0.05" id="cHd-rE-HtT"/>
+                            <constraint firstItem="BlE-w0-YY9" firstAttribute="centerX" secondItem="Dqa-20-Tdq" secondAttribute="centerX" multiplier="0.55" id="caG-JN-MCX"/>
+                            <constraint firstItem="Dqa-20-Tdq" firstAttribute="leading" secondItem="yXr-8B-Vwe" secondAttribute="leading" id="cwn-Gj-dON"/>
+                            <constraint firstItem="09p-Y5-zbv" firstAttribute="centerX" secondItem="Dqa-20-Tdq" secondAttribute="centerX" multiplier="1.35" id="iNN-w8-FVo"/>
+                            <constraint firstItem="Dqa-20-Tdq" firstAttribute="centerX" secondItem="xKh-wh-PwA" secondAttribute="centerX" id="lNd-gG-Ebb"/>
+                            <constraint firstItem="Dqa-20-Tdq" firstAttribute="centerY" secondItem="xKh-wh-PwA" secondAttribute="centerY" id="m1Y-mw-pg8"/>
+                            <constraint firstItem="BlE-w0-YY9" firstAttribute="height" secondItem="Dqa-20-Tdq" secondAttribute="height" multiplier="0.48" id="mDx-rE-39m"/>
+                            <constraint firstItem="1cG-Yc-o1y" firstAttribute="centerX" secondItem="Dqa-20-Tdq" secondAttribute="centerX" multiplier="1.48" id="mKY-2h-MPo"/>
+                            <constraint firstItem="gBJ-Pb-9Vc" firstAttribute="centerX" secondItem="Dqa-20-Tdq" secondAttribute="centerX" multiplier="1.3" id="rph-gW-6vh"/>
+                            <constraint firstItem="09p-Y5-zbv" firstAttribute="centerY" secondItem="Dqa-20-Tdq" secondAttribute="centerY" multiplier="1.01" id="w7E-JE-aaq"/>
+                            <constraint firstItem="gBJ-Pb-9Vc" firstAttribute="centerY" secondItem="Dqa-20-Tdq" secondAttribute="centerY" multiplier="0.92" id="xNc-K5-DSx"/>
+                            <constraint firstItem="1cG-Yc-o1y" firstAttribute="height" secondItem="Dqa-20-Tdq" secondAttribute="height" multiplier="0.05" id="zJm-0G-I0a"/>
+                            <constraint firstItem="BlE-w0-YY9" firstAttribute="width" secondItem="Dqa-20-Tdq" secondAttribute="width" multiplier="0.19" id="zOh-y8-UoF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yXr-8B-Vwe"/>
+                    </view>
+                    <connections>
+                        <outlet property="breedAlien" destination="gt2-Cn-0Q5" id="zIC-5R-SZ1"/>
+                        <outlet property="genereAlien" destination="09p-Y5-zbv" id="91Y-gT-qzp"/>
+                        <outlet property="imgAlien" destination="BlE-w0-YY9" id="7Dy-a4-x8S"/>
+                        <outlet property="nameAlien" destination="gBJ-Pb-9Vc" id="Lxa-66-UNk"/>
+                        <outlet property="nascimentoAline" destination="1cG-Yc-o1y" id="NLk-yC-z1H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Kv-OS-P6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143.19999999999999" y="-62.518740629685162"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Passaporte Template" width="500" height="310"/>
+        <namedColor name="Dark Blue">
+            <color red="0.082352941176470587" green="0.15686274509803921" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Yellow">
+            <color red="0.99607843137254903" green="0.97254901960784312" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

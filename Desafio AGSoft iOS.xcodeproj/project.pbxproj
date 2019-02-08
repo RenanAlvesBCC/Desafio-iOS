@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3880F19115D66ABF8AB905DE /* Pods_Desafio_AGSoft_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C287CE8CEB7F0484EDC2968A /* Pods_Desafio_AGSoft_iOS.framework */; };
+		4AB8D299BF8569B5E16812AD /* Pods_Desafio_AGSoft_iOS_Desafio_AGSoft_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACDB0D3D1E540B1FE70DE42 /* Pods_Desafio_AGSoft_iOS_Desafio_AGSoft_iOSTests.framework */; };
 		591A29A9220A5DB60063A761 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29A8220A5DB60063A761 /* TableViewDataSource.swift */; };
 		591A29AC220A5F300063A761 /* AliensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29AB220A5F300063A761 /* AliensTableViewCell.swift */; };
-		591A29AF220A63FE0063A761 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29AE220A63FE0063A761 /* K.swift */; };
-		591A29B5220A678F0063A761 /* AlienDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A29B4220A678F0063A761 /* AlienDetails.storyboard */; };
-		591A29B7220A67C90063A761 /* AlienDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29B6220A67C90063A761 /* AlienDetailViewController.swift */; };
+		591A29AF220A63FE0063A761 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29AE220A63FE0063A761 /* Utilities.swift */; };
+		591A29B5220A678F0063A761 /* PassaporteAlien.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A29B4220A678F0063A761 /* PassaporteAlien.storyboard */; };
 		591A29B9220A68510063A761 /* Alienigena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A29B8220A68510063A761 /* Alienigena.swift */; };
-		B17B2E6BDE7A6B94617BEFA4 /* Pods_Desafio_AGSoft_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD215FC9742501B5B076CF /* Pods_Desafio_AGSoft_iOS.framework */; };
+		59715E46220CDB520024A9CA /* Estatistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59715E45220CDB520024A9CA /* Estatistics.storyboard */; };
+		59715E4A220CDC0B0024A9CA /* EstatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59715E49220CDC0B0024A9CA /* EstatisticsViewController.swift */; };
+		59715E4F220DDD100024A9CA /* RegisterPassportAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59715E4E220DDD100024A9CA /* RegisterPassportAlien.swift */; };
+		59715E51220DDFAC0024A9CA /* RegisterAliens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59715E50220DDFAC0024A9CA /* RegisterAliens.storyboard */; };
+		59FC19CC220C6BB800F096A6 /* PassportAlienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC19CB220C6BB800F096A6 /* PassportAlienViewController.swift */; };
+		59FC19CE220C6EED00F096A6 /* RegisterAliensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC19CD220C6EED00F096A6 /* RegisterAliensViewController.swift */; };
+		59FC19D3220C75B000F096A6 /* AliensForRegisterDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC19D2220C75B000F096A6 /* AliensForRegisterDAO.swift */; };
+		59FC19D5220C8A9800F096A6 /* RegisterAliensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC19D4220C8A9800F096A6 /* RegisterAliensTableViewCell.swift */; };
+		59FC19DB220C91AE00F096A6 /* ConfirmRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FC19DA220C91AE00F096A6 /* ConfirmRegister.storyboard */; };
+		59FC19DD220C91D900F096A6 /* ConfirmRegisterAlienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC19DC220C91D900F096A6 /* ConfirmRegisterAlienViewController.swift */; };
+		59FEDBC6220B57E900777E43 /* Desafio_AGSoft_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEDBC5220B57E900777E43 /* Desafio_AGSoft_iOSTests.swift */; };
 		C5823C512209FC8E00673901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C502209FC8E00673901 /* AppDelegate.swift */; };
-		C5823C532209FC8E00673901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C522209FC8E00673901 /* ViewController.swift */; };
+		C5823C532209FC8E00673901 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5823C522209FC8E00673901 /* InitialViewController.swift */; };
 		C5823C562209FC8E00673901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5823C542209FC8E00673901 /* Main.storyboard */; };
 		C5823C582209FC8F00673901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5823C572209FC8F00673901 /* Assets.xcassets */; };
 		C5823C5B2209FC8F00673901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5823C592209FC8F00673901 /* LaunchScreen.storyboard */; };
@@ -79,19 +90,45 @@
 		C5823CD62209FCAF00673901 /* Corbin Pritza - Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5823C9C2209FCAF00673901 /* Corbin Pritza - Foto.jpg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		59FEDBC8220B57E900777E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5823C452209FC8E00673901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5823C4C2209FC8E00673901;
+			remoteInfo = "Desafio AGSoft iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		25FD215FC9742501B5B076CF /* Pods_Desafio_AGSoft_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_AGSoft_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29C24ECB280902DE572B0634 /* Pods-Desafio AGSoft iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0A0796A90CCF082CDB00E2EA /* Pods-Desafio AGSoft iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.release.xcconfig"; sourceTree = "<group>"; };
+		0ACDB0D3D1E540B1FE70DE42 /* Pods_Desafio_AGSoft_iOS_Desafio_AGSoft_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_AGSoft_iOS_Desafio_AGSoft_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D0B7123AE48EBF44AF3463 /* Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		37463F999AA04D2584142CB4 /* Pods-Desafio AGSoft iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		591A29A8220A5DB60063A761 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 		591A29AB220A5F300063A761 /* AliensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliensTableViewCell.swift; sourceTree = "<group>"; };
-		591A29AE220A63FE0063A761 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
-		591A29B4220A678F0063A761 /* AlienDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlienDetails.storyboard; sourceTree = "<group>"; };
-		591A29B6220A67C90063A761 /* AlienDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDetailViewController.swift; sourceTree = "<group>"; };
+		591A29AE220A63FE0063A761 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		591A29B4220A678F0063A761 /* PassaporteAlien.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassaporteAlien.storyboard; sourceTree = "<group>"; };
 		591A29B8220A68510063A761 /* Alienigena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alienigena.swift; sourceTree = "<group>"; };
-		BC0892640F9CD3B68D1E1B26 /* Pods-Desafio AGSoft iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS.release.xcconfig"; sourceTree = "<group>"; };
+		59715E45220CDB520024A9CA /* Estatistics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Estatistics.storyboard; sourceTree = "<group>"; };
+		59715E49220CDC0B0024A9CA /* EstatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatisticsViewController.swift; sourceTree = "<group>"; };
+		59715E4D220DD81F0024A9CA /* Desafio AGSoft iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Desafio AGSoft iOS.entitlements"; sourceTree = "<group>"; };
+		59715E4E220DDD100024A9CA /* RegisterPassportAlien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPassportAlien.swift; sourceTree = "<group>"; };
+		59715E50220DDFAC0024A9CA /* RegisterAliens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterAliens.storyboard; sourceTree = "<group>"; };
+		59FC19CB220C6BB800F096A6 /* PassportAlienViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportAlienViewController.swift; sourceTree = "<group>"; };
+		59FC19CD220C6EED00F096A6 /* RegisterAliensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAliensViewController.swift; sourceTree = "<group>"; };
+		59FC19D2220C75B000F096A6 /* AliensForRegisterDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliensForRegisterDAO.swift; sourceTree = "<group>"; };
+		59FC19D4220C8A9800F096A6 /* RegisterAliensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAliensTableViewCell.swift; sourceTree = "<group>"; };
+		59FC19DA220C91AE00F096A6 /* ConfirmRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfirmRegister.storyboard; sourceTree = "<group>"; };
+		59FC19DC220C91D900F096A6 /* ConfirmRegisterAlienViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRegisterAlienViewController.swift; sourceTree = "<group>"; };
+		59FEDBC3220B57E900777E43 /* Desafio AGSoft iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio AGSoft iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FEDBC5220B57E900777E43 /* Desafio_AGSoft_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_AGSoft_iOSTests.swift; sourceTree = "<group>"; };
+		59FEDBC7220B57E900777E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D7BE7AB5B42B48E2DDE9DC /* Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C287CE8CEB7F0484EDC2968A /* Pods_Desafio_AGSoft_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_AGSoft_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5823C4D2209FC8E00673901 /* Desafio AGSoft iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio AGSoft iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5823C502209FC8E00673901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5823C522209FC8E00673901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5823C522209FC8E00673901 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		C5823C552209FC8E00673901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5823C572209FC8F00673901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5823C5A2209FC8F00673901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -157,25 +194,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		59FEDBC0220B57E900777E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB8D299BF8569B5E16812AD /* Pods_Desafio_AGSoft_iOS_Desafio_AGSoft_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5823C4A2209FC8E00673901 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B17B2E6BDE7A6B94617BEFA4 /* Pods_Desafio_AGSoft_iOS.framework in Frameworks */,
+				3880F19115D66ABF8AB905DE /* Pods_Desafio_AGSoft_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34BC85D59B400405A3015EF8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				25FD215FC9742501B5B076CF /* Pods_Desafio_AGSoft_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		591A29A7220A5D950063A761 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				591A29AB220A5F300063A761 /* AliensTableViewCell.swift */,
+				59FC19D4220C8A9800F096A6 /* RegisterAliensTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -195,8 +233,12 @@
 		591A29B0220A67200063A761 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				591A29AA220A5F050063A761 /* Cells */,
 				C5823C542209FC8E00673901 /* Main.storyboard */,
-				591A29B4220A678F0063A761 /* AlienDetails.storyboard */,
+				591A29B4220A678F0063A761 /* PassaporteAlien.storyboard */,
+				59FC19DA220C91AE00F096A6 /* ConfirmRegister.storyboard */,
+				59715E45220CDB520024A9CA /* Estatistics.storyboard */,
+				59715E50220DDFAC0024A9CA /* RegisterAliens.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -204,8 +246,11 @@
 		591A29B2220A67330063A761 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C5823C522209FC8E00673901 /* ViewController.swift */,
-				591A29B6220A67C90063A761 /* AlienDetailViewController.swift */,
+				C5823C522209FC8E00673901 /* InitialViewController.swift */,
+				59FC19CB220C6BB800F096A6 /* PassportAlienViewController.swift */,
+				59FC19CD220C6EED00F096A6 /* RegisterAliensViewController.swift */,
+				59FC19DC220C91D900F096A6 /* ConfirmRegisterAlienViewController.swift */,
+				59715E49220CDC0B0024A9CA /* EstatisticsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -213,7 +258,7 @@
 		591A29B3220A67470063A761 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				591A29AE220A63FE0063A761 /* K.swift */,
+				591A29AE220A63FE0063A761 /* Utilities.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -226,32 +271,81 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		595BE05E220A814D001D0EA1 /* MVC */ = {
+		595BE05E220A814D001D0EA1 /* MVCD */ = {
 			isa = PBXGroup;
 			children = (
+				59FC19D1220C756F00F096A6 /* DAO */,
 				591A29B2220A67330063A761 /* Controller */,
 				591A29B0220A67200063A761 /* View */,
 				591A29BB220A68630063A761 /* Model */,
 			);
-			name = MVC;
+			name = MVCD;
 			sourceTree = "<group>";
 		};
-		89C8AD58CCCAEB1A79F1AC96 /* Pods */ = {
+		59715E40220CB0220024A9CA /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				29C24ECB280902DE572B0634 /* Pods-Desafio AGSoft iOS.debug.xcconfig */,
-				BC0892640F9CD3B68D1E1B26 /* Pods-Desafio AGSoft iOS.release.xcconfig */,
+				59715E4E220DDD100024A9CA /* RegisterPassportAlien.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		59FC19D1220C756F00F096A6 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				59FC19D2220C75B000F096A6 /* AliensForRegisterDAO.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		59FEDBC4220B57E900777E43 /* Desafio AGSoft iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				59FEDBC5220B57E900777E43 /* Desafio_AGSoft_iOSTests.swift */,
+				59FEDBC7220B57E900777E43 /* Info.plist */,
+			);
+			path = "Desafio AGSoft iOSTests";
+			sourceTree = "<group>";
+		};
+		59FEDBCD220BB09F00777E43 /* Delegates+DataSource+Documents+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				59715E40220CB0220024A9CA /* Delegate */,
+				591A29A7220A5D950063A761 /* DataSources */,
+				591A29B3220A67470063A761 /* Utilities */,
+				C5823C622209FCAE00673901 /* Documentos */,
+			);
+			name = "Delegates+DataSource+Documents+Utilities";
+			sourceTree = "<group>";
+		};
+		8F8A65F98421B78E891B385F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37463F999AA04D2584142CB4 /* Pods-Desafio AGSoft iOS.debug.xcconfig */,
+				0A0796A90CCF082CDB00E2EA /* Pods-Desafio AGSoft iOS.release.xcconfig */,
+				A4D7BE7AB5B42B48E2DDE9DC /* Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.debug.xcconfig */,
+				26D0B7123AE48EBF44AF3463 /* Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		98C8CDCA31729385AC093FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C287CE8CEB7F0484EDC2968A /* Pods_Desafio_AGSoft_iOS.framework */,
+				0ACDB0D3D1E540B1FE70DE42 /* Pods_Desafio_AGSoft_iOS_Desafio_AGSoft_iOSTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C5823C442209FC8E00673901 = {
 			isa = PBXGroup;
 			children = (
 				C5823C4F2209FC8E00673901 /* Desafio AGSoft iOS */,
+				59FEDBC4220B57E900777E43 /* Desafio AGSoft iOSTests */,
 				C5823C4E2209FC8E00673901 /* Products */,
-				89C8AD58CCCAEB1A79F1AC96 /* Pods */,
-				34BC85D59B400405A3015EF8 /* Frameworks */,
+				8F8A65F98421B78E891B385F /* Pods */,
+				98C8CDCA31729385AC093FAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,6 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				C5823C4D2209FC8E00673901 /* Desafio AGSoft iOS.app */,
+				59FEDBC3220B57E900777E43 /* Desafio AGSoft iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,11 +361,9 @@
 		C5823C4F2209FC8E00673901 /* Desafio AGSoft iOS */ = {
 			isa = PBXGroup;
 			children = (
-				595BE05E220A814D001D0EA1 /* MVC */,
-				591A29B3220A67470063A761 /* Utilities */,
-				591A29AA220A5F050063A761 /* Cells */,
-				591A29A7220A5D950063A761 /* DataSources */,
-				C5823C622209FCAE00673901 /* Documentos */,
+				59715E4D220DD81F0024A9CA /* Desafio AGSoft iOS.entitlements */,
+				59FEDBCD220BB09F00777E43 /* Delegates+DataSource+Documents+Utilities */,
+				595BE05E220A814D001D0EA1 /* MVCD */,
 				C5823C502209FC8E00673901 /* AppDelegate.swift */,
 				C5823C572209FC8F00673901 /* Assets.xcassets */,
 				C5823C592209FC8F00673901 /* LaunchScreen.storyboard */,
@@ -347,15 +440,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		59FEDBC2220B57E900777E43 /* Desafio AGSoft iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FEDBCC220B57E900777E43 /* Build configuration list for PBXNativeTarget "Desafio AGSoft iOSTests" */;
+			buildPhases = (
+				6096A721AFC2FE273C148D75 /* [CP] Check Pods Manifest.lock */,
+				59FEDBBF220B57E900777E43 /* Sources */,
+				59FEDBC0220B57E900777E43 /* Frameworks */,
+				59FEDBC1220B57E900777E43 /* Resources */,
+				F2B59959456A1C2801B5C914 /* [CP] Embed Pods Frameworks */,
+				7863025BA93F25CE5C914748 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59FEDBC9220B57E900777E43 /* PBXTargetDependency */,
+			);
+			name = "Desafio AGSoft iOSTests";
+			productName = "Desafio AGSoft iOSTests";
+			productReference = 59FEDBC3220B57E900777E43 /* Desafio AGSoft iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C5823C4C2209FC8E00673901 /* Desafio AGSoft iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5823C5F2209FC8F00673901 /* Build configuration list for PBXNativeTarget "Desafio AGSoft iOS" */;
 			buildPhases = (
-				A6F38AFBCBF84FD85FFEE95A /* [CP] Check Pods Manifest.lock */,
+				EFA35C9F2EC1D6BB2AB4976C /* [CP] Check Pods Manifest.lock */,
 				C5823C492209FC8E00673901 /* Sources */,
 				C5823C4A2209FC8E00673901 /* Frameworks */,
 				C5823C4B2209FC8E00673901 /* Resources */,
-				9FC29DA333CD0B773CDA5783 /* [CP] Embed Pods Frameworks */,
+				03EC57F26875DBCE8C908084 /* [CP] Embed Pods Frameworks */,
+				74C03CDD59CB5B353A0F5D88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,8 +491,17 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = AGSoft;
 				TargetAttributes = {
+					59FEDBC2220B57E900777E43 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5823C4C2209FC8E00673901;
+					};
 					C5823C4C2209FC8E00673901 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -395,11 +519,19 @@
 			projectRoot = "";
 			targets = (
 				C5823C4C2209FC8E00673901 /* Desafio AGSoft iOS */,
+				59FEDBC2220B57E900777E43 /* Desafio AGSoft iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		59FEDBC1220B57E900777E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5823C4B2209FC8E00673901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -450,9 +582,11 @@
 				C5823CA32209FCAF00673901 /* Thanthaa zh'Rada - Foto.jpg in Resources */,
 				C5823CD12209FCAF00673901 /* Aarmar Mosolmak Daro - Foto.jpg in Resources */,
 				C5823CCC2209FCAF00673901 /* Brony Maro Brony Parnia - Foto.jpg in Resources */,
+				59715E46220CDB520024A9CA /* Estatistics.storyboard in Resources */,
 				C5823C562209FC8E00673901 /* Main.storyboard in Resources */,
-				591A29B5220A678F0063A761 /* AlienDetails.storyboard in Resources */,
+				591A29B5220A678F0063A761 /* PassaporteAlien.storyboard in Resources */,
 				C5823CC12209FCAF00673901 /* Cretav Tania - Foto.jpg in Resources */,
+				59FC19DB220C91AE00F096A6 /* ConfirmRegister.storyboard in Resources */,
 				C5823CD22209FCAF00673901 /* Crugue Mavok - Documento.jpg in Resources */,
 				C5823CB02209FCAF00673901 /* Thavand sh'Share - Foto.jpg in Resources */,
 				C5823CBC2209FCAF00673901 /* Gaar - Documento.jpg in Resources */,
@@ -462,6 +596,7 @@
 				C5823CAD2209FCAF00673901 /* Shoggue Rejar - Documento.jpg in Resources */,
 				C5823CBF2209FCAF00673901 /* Brellar Mara - Foto.jpg in Resources */,
 				C5823CCD2209FCAF00673901 /* Corbin Daro - Documento.jpg in Resources */,
+				59715E51220DDFAC0024A9CA /* RegisterAliens.storyboard in Resources */,
 				C5823CBB2209FCAF00673901 /* Anpat Padal - Documento.jpg in Resources */,
 				C5823CCE2209FCAF00673901 /* Kamem Seska - Documento.jpg in Resources */,
 				C5823C9D2209FCAF00673901 /* Hoggue Goro - Documento.jpg in Resources */,
@@ -472,25 +607,85 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9FC29DA333CD0B773CDA5783 /* [CP] Embed Pods Frameworks */ = {
+		03EC57F26875DBCE8C908084 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageDetect/ImageDetect.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageDetect.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6F38AFBCBF84FD85FFEE95A /* [CP] Check Pods Manifest.lock */ = {
+		6096A721AFC2FE273C148D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C03CDD59CB5B353A0F5D88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS/Pods-Desafio AGSoft iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7863025BA93F25CE5C914748 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA35C9F2EC1D6BB2AB4976C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,24 +703,70 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F2B59959456A1C2801B5C914 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageDetect/ImageDetect.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageDetect.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests/Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		59FEDBBF220B57E900777E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FEDBC6220B57E900777E43 /* Desafio_AGSoft_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5823C492209FC8E00673901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				591A29A9220A5DB60063A761 /* TableViewDataSource.swift in Sources */,
-				591A29B7220A67C90063A761 /* AlienDetailViewController.swift in Sources */,
-				591A29AF220A63FE0063A761 /* K.swift in Sources */,
-				C5823C532209FC8E00673901 /* ViewController.swift in Sources */,
+				59FC19CE220C6EED00F096A6 /* RegisterAliensViewController.swift in Sources */,
+				591A29AF220A63FE0063A761 /* Utilities.swift in Sources */,
+				59715E4A220CDC0B0024A9CA /* EstatisticsViewController.swift in Sources */,
+				59FC19D5220C8A9800F096A6 /* RegisterAliensTableViewCell.swift in Sources */,
+				C5823C532209FC8E00673901 /* InitialViewController.swift in Sources */,
+				59FC19DD220C91D900F096A6 /* ConfirmRegisterAlienViewController.swift in Sources */,
 				C5823C512209FC8E00673901 /* AppDelegate.swift in Sources */,
 				591A29B9220A68510063A761 /* Alienigena.swift in Sources */,
+				59715E4F220DDD100024A9CA /* RegisterPassportAlien.swift in Sources */,
+				59FC19CC220C6BB800F096A6 /* PassportAlienViewController.swift in Sources */,
 				591A29AC220A5F300063A761 /* AliensTableViewCell.swift in Sources */,
+				59FC19D3220C75B000F096A6 /* AliensForRegisterDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59FEDBC9220B57E900777E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5823C4C2209FC8E00673901 /* Desafio AGSoft iOS */;
+			targetProxy = 59FEDBC8220B57E900777E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C5823C542209FC8E00673901 /* Main.storyboard */ = {
@@ -547,14 +788,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		59FEDBCA220B57E900777E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D7BE7AB5B42B48E2DDE9DC /* Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A5455B8KE;
+				INFOPLIST_FILE = "Desafio AGSoft iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renan.Desafio-AGSoft-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio AGSoft iOS.app/Desafio AGSoft iOS";
+			};
+			name = Debug;
+		};
+		59FEDBCB220B57E900777E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D0B7123AE48EBF44AF3463 /* Pods-Desafio AGSoft iOS-Desafio AGSoft iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A5455B8KE;
+				INFOPLIST_FILE = "Desafio AGSoft iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renan.Desafio-AGSoft-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio AGSoft iOS.app/Desafio AGSoft iOS";
+			};
+			name = Release;
+		};
 		C5823C5D2209FC8F00673901 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -584,7 +867,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -605,6 +888,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -614,8 +898,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -645,7 +929,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -665,7 +949,7 @@
 		};
 		C5823C602209FC8F00673901 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29C24ECB280902DE572B0634 /* Pods-Desafio AGSoft iOS.debug.xcconfig */;
+			baseConfigurationReference = 37463F999AA04D2584142CB4 /* Pods-Desafio AGSoft iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -684,7 +968,7 @@
 		};
 		C5823C612209FC8F00673901 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0892640F9CD3B68D1E1B26 /* Pods-Desafio AGSoft iOS.release.xcconfig */;
+			baseConfigurationReference = 0A0796A90CCF082CDB00E2EA /* Pods-Desafio AGSoft iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -704,6 +988,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		59FEDBCC220B57E900777E43 /* Build configuration list for PBXNativeTarget "Desafio AGSoft iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FEDBCA220B57E900777E43 /* Debug */,
+				59FEDBCB220B57E900777E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C5823C482209FC8E00673901 /* Build configuration list for PBXProject "Desafio AGSoft iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
